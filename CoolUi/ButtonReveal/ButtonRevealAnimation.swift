@@ -78,7 +78,7 @@ struct RevealedButton: View {
                 .frame(width: ButtonRevealAnimation.imageSize, height: ButtonRevealAnimation.imageSize)
                 .padding(ButtonRevealAnimation.innerPadding)
                 .foregroundStyle(.white)
-                .onChange(of: isRevealed) { newValue in
+                .onChange(of: isRevealed) { _, newValue in
                     withAnimation(.spring()) {
                         rotation += newValue ? 360 : -360
                     }
