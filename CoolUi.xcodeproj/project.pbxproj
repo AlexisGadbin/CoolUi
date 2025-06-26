@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		5A5808CA2DB6DABE00C37464 /* CoolUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5808CA2DB6DABE00C37464 /* CoolUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CoolUi.app; path = "/Users/alexisgadbin/Desktop/CoolUi/build/Debug-iphoneos/CoolUi.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				5A5808CC2DB6DABE00C37464 /* CoolUi */,
-				5A5808CB2DB6DABE00C37464 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		5A5808CB2DB6DABE00C37464 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5A5808CA2DB6DABE00C37464 /* CoolUi.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +86,7 @@
 			mainGroup = 5A5808C12DB6DABE00C37464;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5A5808CB2DB6DABE00C37464 /* Products */;
+			productRefGroup = 5A5808C12DB6DABE00C37464;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
