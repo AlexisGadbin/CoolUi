@@ -37,6 +37,10 @@ struct ContentView: View {
                     NavigationLink(destination: MorphingDotSphereView()) {
                         Text("Morphing Dot Sphere")
                     }
+                    
+                    NavigationLink(destination: RiveButtonView()) {
+                        Text("Rive button animation")
+                    }
                 }
             }
             .navigationTitle("Cool UI")
