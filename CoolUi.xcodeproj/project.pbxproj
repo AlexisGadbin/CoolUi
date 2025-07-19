@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5A6BF6FC2E2C24D40079930D /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = 5A6BF6FB2E2C24D40079930D /* RiveRuntime */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5AF869D82E0D99E900CEE4A3 /* CoolUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6BF6FC2E2C24D40079930D /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +62,7 @@
 			);
 			name = CoolUi;
 			packageProductDependencies = (
+				5A6BF6FB2E2C24D40079930D /* RiveRuntime */,
 			);
 			productName = CoolUi;
 			productReference = 5AF869D82E0D99E900CEE4A3 /* CoolUi.app */;
@@ -86,6 +92,9 @@
 			);
 			mainGroup = 5A5808C12DB6DABE00C37464;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5A6BF6FA2E2C24D40079930D /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5A5808C12DB6DABE00C37464;
 			projectDirPath = "";
@@ -318,6 +327,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A6BF6FA2E2C24D40079930D /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A6BF6FB2E2C24D40079930D /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A6BF6FA2E2C24D40079930D /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A5808C22DB6DABE00C37464 /* Project object */;
 }
